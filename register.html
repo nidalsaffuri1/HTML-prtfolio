@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body style="background-color: seagreen;">
+
+    <head>
+        <h1 style="color:darkblue;">SignUp now for <ins><mark style="background-color: darkred;">7 days</mark> free
+                trail!</ins>
+        </h1>
+    </head>
+    <br>
+    <hr>
+    <style>
+        #select{
+            margin: 0px 0px 0px 20px;
+            padding: 0px 0px 0px 20px;;
+        }
+    [type='reset']{
+        border-style: solid;
+        border-width: 5px;
+        border-color: aqua;
+        margin: 0px 0px 0px 0px ;
+    }
+    [type='submit']{
+        border-style: solid;
+        border-width: 5px;
+        border-color: aqua;
+        margin: 0px 0px 0px 390px ;
+    }
+        #color{
+            background-color: antiquewhite;
+        }
+    </style>
+    <main>
+        <section>
+            <label for="select" style="font-size: 130%;">Payment method:</label>
+            <select id="select" name="select">
+                <option>Visa</option>
+                <option>Direct</option>
+                <option>Bitcoin</option>
+            </select>
+        </section>
+        <section>
+            <form action="/index.html" method="get">
+                <fieldset>
+                    <legend><b style="font-size: 130%;">user Info</b></legend>
+                    <label for="text" id="color">Username: </label>
+                    <input type="text" id="text" name="text" placeholder="Nidal.." required><br>
+                    <br>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br>
+                    <br>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="password" maxlength="12" required><br>
+                    <br>
+                    <label for="tel">Tel: </label>
+                    <input type="tel" id="tel" name="tel" placeholder="0526523495" maxlength="13"><br>
+                </fieldset>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">reset</button>
+            </form>
+            <br>
+        </section>
+        <br>
+        <hr>
+        <section>
+            <video src="sunset.mp4" controls title="sunset" width="500" poster="cy.png" autoplay loop></video>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <a href="index.html">
+                <h2><em>BACK HOME!</em></h2>
+            </a>
+        </section>
+    </footer>
+</body>
+
+</html>
